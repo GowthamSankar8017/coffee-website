@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SG Coffee Website</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+
+    <!-- header section starts -->
+    <header class="header">
+      <a href="#" class="logo"><i class="fa-solid fa-mug-hot"></i> SG Coffee</a>
+
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#aboutus">About</a>
+        <a href="#product">Cofee</a>
+        <a href="#review">Review</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menubtn"></div>
+      
+        <div
+          class="fas fa-cart-shopping"
+          id="cartbtn">
+        
+     </div>      
+
+        <div class="fas fa-user" id="loginbtn" onclick="login()"></div>
+        
+<!--  
+
+      <!-- loginform -->
+      <form action="#" class="loginform">
+        <h3>Login Form</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <p>Forget your password -<a href="#">Click here</a></p>
+        <p>don't have an account -<a href="#">create now</a></p>
+        <input type="submit" value="Login now" class="logbtn" />
+      </form>
+    </header>
+
+    <!-- home section -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Fresh and <span>Organic</span> Products for You</h3>
+        <p>
+         Start your day with a black Coffee
+        </p>
+
+        <a href="#product" class="homebtn">Order now</a>
+      </div>
+    </section>
+
+    <!-- about -->
+
+    <div class="aboutus" id="aboutus">
+      <h2 class="abouttitle">Discover our Coffee</h2>
+      <div class="aboutcontainer">
+        <div class="aboutimg">
+          <img src="./ggg.jpg" alt="" />
+        </div>
+
+        <div class="aboutcontent">
+          <h2>About SG Coffee</h2>
+          <p>
+  At <strong>SG Coffee</strong>, we love making great coffee from the best beans. Since 2020, we've been bringing delicious flavors from farms around the world straight to your cup. Every cup is made with care just for you. Come enjoy a great coffee with us!
+Whether you're at home or visiting us, we're here to make your coffee moments special. Let's share a cup together!
+          </p>
+          <div class="sociallinks">
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <a href="#" class="abtn">Learn More</a>
+        </div>
+      </div>
+
+      <!-- features -->
+
+      <div class="featurecontainer">
+        <h2 class="title">Our Features</h2>
+
+        <div class="featurecontent">
+
+          <div class="features">
+            <img src="./payment-method_1663270.png" alt="" />
+            <h2>Easy Payments</h2>
+            <p>Pay easily through UPI or Cards.</p>
+            <a href="#home" class="fbtn">Read More</a>
+          </div>
+
+          <div class="features">
+            <img src="./free-shipping_5371541.png" alt="" />
+            <h2>Free Delivery</h2>
+            <p>First 10 orders will be free delivery.</p>
+            <a href="#home" class="fbtn">Read More</a>
+          </div>
+
+          <div class="features">
+            <img src="./customer-service_950237.png" alt="" />
+            <h2>24 Hrs Service</h2>
+            <p>Our service is available at any time.</p>
+            <a href="#home" class="fbtn">Read More</a>
+          </div>
+
+          <div class="features">
+            <img src="./offer_7261257.png" alt="" />
+            <h2>Special Offer</h2>
+            <p>Grab 50% discount for first 10 orders.</p>
+            <a href="#home" class="fbtn">Read More</a>
+          </div>
+
+          <div class="features">
+            <img src="./member-card_7186401.png" alt="" />
+            <h2>Membership Card</h2>
+            <p>
+              Join membership to avail discounts & offers.
+            </p>
+            <a href="#" class="fbtn">Read More</a>
+          </div>
+
+          <div class="features">
+            <img src="./express_2795331.png" alt="" />
+            <h2>OnTime Delivery</h2>
+            <p>
+              Delivering the product within 30 minutes.
+            </p>
+            <a href="#home" class="fbtn">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- products -->
+
+      <div class="productcontainer" id="product">
+        <h2 class="title">Discover our Coffee</h2>
+        <div class="shopcontent">
+
+          <div class="foodbox">
+            <div class="pic">
+<img src="./blackcof.jpg" alt="" class="foodimage" />
+            </div>
+            
+            <h2 class="foodtitle">Black Coffee</h2>
+            <span class="foodprice">Rs:25</span>
+         <i class="fa-solid fa-cart-shopping addcart"></i>
+          </div>
+
+          <div class="foodbox">
+            <div class="pic">
+            <img src="./latte.jpeg" alt="" class="foodimage" /></div>
+            <h2 class="foodtitle">Latte Coffee</h2>
+            <span class="foodprice">Rs:50</span>
+            <i class="fa-solid fa-cart-shopping addcart"></i>
+          </div>
+
+          <div class="foodbox">
+            <div class="pic">
+            <img src="./americano.webp" alt="" class="foodimage" />
+            </div>
+            <h2 class="foodtitle">Americano coffee</h2>
+            <span class="foodprice">Rs:75</span>
+            <i class="fa-solid fa-cart-shopping addcart"></i>
+          </div>
+          <div class="foodbox">
+            <div class="pic">
+            <img src="./espressso.jpg" alt="" class="foodimage"/></div>
+            <h2 class="foodtitle">Espresso Coffee</h2>
+            <span class="foodprice">Rs:120</span>
+             <i class="fa-solid fa-cart-shopping addcart"></i>
+          </div>
+          <div class="foodbox">
+            <div class="pic">
+            <img src="./doppio.jpg" alt="" class="foodimage" /></div>
+            <h2 class="foodtitle">Doppio Coffee</h2>
+            <span class="foodprice">Rs:150</span>
+       <i class="fa-solid fa-cart-shopping addcart"></i>
+          </div>
+
+          <div class="foodbox">
+            <div class="pic">
+            <img src="./redeye.jpg" alt="" class="foodimage" /></div>
+            <h2 class="foodtitle">RedEye Coffee</h2>
+            <span class="foodprice">Rs:180</span>
+             <i class="fa-solid fa-cart-shopping addcart"></i>
+          </div>
+
+             <div class="foodbox">
+              <div class="pic">
+            <img src="./lungo.webp" alt="" class="foodimage" /></div>
+            <h2 class="foodtitle">Lungo Coffee</h2>
+            <span class="foodprice">Rs:200</span>
+           <i class="fa-solid fa-cart-shopping addcart"></i>
+          </div>
+
+             <div class="foodbox">
+              <div class="pic">
+            <img src="./flat.webp" alt="" class="foodimage" />
+            </div>
+            <h2 class="foodtitle">Flat White Coffee</h2>
+            <span class="foodprice">Rs:250</span>
+             <i class="fa-solid fa-cart-shopping addcart"></i>
+          </div>
+
+             <div class="foodbox">
+              <div class="pic"><img src="./mocha2.avif" alt="" class="foodimage" /></div>
+            
+            <h2 class="foodtitle">Mocha Coffee</h2>
+            <span class="foodprice">Rs:300</span>
+             <i class="fa-solid fa-cart-shopping addcart"></i>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Review section -->
+
+    <section class="review" id="review">
+      <h1 class="heading">Customer's <span>review</span></h1>
+
+      <div class="reviewcontainer">
+        <div class="reviewbox">
+          <i class="fa-solid fa-quote-right"></i>
+          <i class="fa-solid fa-quote-right"></i>
+          <p>
+           SG Coffee platform is good.I love the taste of every coffee products.
+           coffee is delicious &#128525.Highly effective energy booster.Delivery is superfast.
+          </p>
+          <img src="./face1.jfif" alt="" class="user" />
+          <h3>Gowtham</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+
+        <div class="reviewbox">
+          <i class="fa-solid fa-quote-right"></i>
+          <i class="fa-solid fa-quote-right"></i>
+          <p>
+            My favourite coffee is Mocha Coffee and Doppio Coffee,the taste was extraodinary &#128151;.Best value for money.All flavous are enjoyable.I just loved it.
+          </p>
+          <img src="./face2.avif" alt="" class="user" />
+          <h3>Gladson</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+        </div>
+
+        <div class="reviewbox">
+          <i class="fa-solid fa-quote-right"></i>
+          <i class="fa-solid fa-quote-right"></i>
+          <p>
+            The packaging is great.Coffee granules are the perfect size and mix well.The taste can be more strong and flavourful but all in all great drink to get rid of tired &#128516;.
+          </p>
+          <img src="./face3.jpg" alt="" class="user" />
+          <h3>John</h3>
+          <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- contact -->
+    <section class="contactcontainer" id="contact">
+
+      <h2 class="Cheading">Contact Us</h2>
+      <div class="contactlist">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3907.332895144879!2d78.11097107354493!3d11.6708032420636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf11d62c8aecb%3A0x5ab6ea8ef1eda082!2sSalem%20Railway%20Station!5e0!3m2!1sen!2sin!4v1727591880094!5m2!1sen!2sin"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+
+        <form action="#">
+          <h3>Get in touch with us</h2>
+
+          <div class="inputbox">
+            <span class="fas fa-user"></span>
+            <input type="text" placeholder="name" />
+          </div>
+
+          <div class="inputbox">
+            <span class="fas fa-envelope"></span>
+            <input type="email" placeholder="email" />
+          </div>
+
+          <div class="inputbox">
+            <span class="fas fa-phone"></span>
+            <input type="number" placeholder="mobile no" />
+          </div>
+
+          <input type="submit" value="contact now" class="ctbn"/>
+        </form>
+      </div>
+    </section>
+
+
+    <!-- footer -->
+     
+    <section class="footer">
+      <div class="footercontainer">
+        <div class="box">
+          <h3>SG <i class="fa-solid fa-mug-saucer"></i></h3>
+          <p>SG Coffee offers the various flavour of coffee at one place.</p>
+          <div class="share">
+            <a href="https://www.facebook.com/" class="fab fa-facebook" target="_blank"></a>
+            <a href="https://twitter.com/?lang=en" class="fab fa-twitter" target="_blank"></a>
+            <a href="https://www.instagram.com/" class="fab fa-instagram" target="_blank"></a>
+            <a href="https://www.youtube.com/" class="fab fa-youtube" target="_blank"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>Contact info</h3>
+
+          <a href="#" class="links"
+            ><i class="fa-solid fa-phone"></i> +123-456-789</a
+          >
+          <a href="#" class="links"
+            ><i class="fa-solid fa-phone"></i> +232-232-333</a
+          >
+          <a href="#" class="links"
+            ><i class="fa-solid fa-envelope"></i> sgcoffee@gmail.com</a
+          >
+          <a href="#" class="links"
+            ><i class="fa-solid fa-map-marker-alt"></i> Salem, india - 645232</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>Quick links</h3>
+
+          <a href="#home" class="links"
+            ><i class="fa-solid fa-arrow-right"></i> Home</a
+          >
+          <a href="#about" class="links"
+            ><i class="fa-solid fa-arrow-right"></i> About us</a
+          >
+          <a href="#product" class="links"
+            ><i class="fa-solid fa-arrow-right"></i>Products</a
+          >
+          <a href="#home" class="links"
+            ><i class="fa-solid fa-arrow-right"></i>Features</a
+          >
+          <a href="#review" class="links"
+            ><i class="fa-solid fa-arrow-right"></i>Reviews</a
+          >
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>join in membership for updates</p>
+          <input type="email" placeholder="your email" class="email" />
+          <input type="submit" value="join" class="fbtn" onclick="join()"/>
+        </div>
+      </div>
+      <div class="credit">
+        Created by <span> SG Designer </span>| all rights reserved
+      </div>
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
